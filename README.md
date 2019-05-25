@@ -2,10 +2,10 @@ Please use this repository to maintain your work for the team project.
 
 Also please fill the following details:
 
-- Team name:
-- Students (SCS username - Name):
+- Team name: Pikok
+- Students (SCS username - Name): Barcau Emanuel, Baican Vlad, Balea Dorin, Bendic Radu
 
-Project idea:
+Project idea: Multi Sensor Hub
 
 =============
 

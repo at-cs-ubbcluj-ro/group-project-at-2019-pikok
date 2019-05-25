@@ -1,0 +1,16 @@
+<div ng-controller="mainController" class="container">
+  <ul class="list-group">
+    <li
+      ng-repeat="condition in conditions"
+      class="list-group-item"
+      ng-class="{active: condition.selected}"
+      ng-click="selectCondition(condition)"
+    >
+      <p>Name: {{ condition.name}}</p>
+      <p>Temperature: {{ condition.temperature }}</p>
+      <p>Air Humidity: {{ condition.humidity }}</p>
+      <p>Soil Humidity: {{ condition.x }}</p>
+      <p>Luminosity: {{ condition.y}}</p>
+    </li>
+  </ul>
+</div>
